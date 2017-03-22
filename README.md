@@ -1,6 +1,6 @@
 # Indian Medical Practitioners Recommendation Engine
 
-Executive Summary:
+
 This report aims to provide a comprehensive rating system for healthcare providers in the various medical specialties. The site Practo has been used as the data source for generating medical professionals’ data. Other data sources like just dial, and Medical Council website has been used for data confirmation.
 Doctors education data, experience, hospitals working for, awards received or thesis submission and user reviews (feedback) has been scraped from Practo. Z score has been calculated to standardize each parameter in the doctors’ dataset. R score is assigned to each doctor for each parameter. Recommendation engine is built based on the R scores of each parameter. Once the average R score is achieved for individual doctor percentile ranking is applied on the whole data set to get the exact recommendation score for the doctor in selected location and specialization.
 The parameters used to build this recommendation engine are Experience of doctor, hospital to which doctor is associated with, Education/specialization, awards or thesis submitted and on user feedback or review. Doctor’s registration number is verified against medical council registry.
